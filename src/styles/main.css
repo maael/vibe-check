@@ -15,7 +15,7 @@
 }
 
 body {
-  @apply bg-gradient-to-br from-rose-400 via-fuchsia-500 to-indigo-500;
+  @apply bg-gradient-to-br from-fuchsia-400 via-fuchsia-500 to-indigo-500;
   color: var(--color-text);
   transition: background-color 0.3s ease, color 0.3s ease;
   font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
