@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import 'variables.css';
 @import 'utilities.css';
 
@@ -12,10 +15,10 @@
 }
 
 body {
-  background-color: var(--color-background);
+  @apply bg-gradient-to-br from-rose-400 via-fuchsia-500 to-indigo-500;
   color: var(--color-text);
   transition: background-color 0.3s ease, color 0.3s ease;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 }
 
 html,
